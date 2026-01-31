@@ -13,10 +13,11 @@
 ## Testing
 
 - Use descriptive test names
-- Tests should clearly describe the behavior being validated (e.g. “dealer and customer sets send emails for expiring case”).
+- Tests should clearly describe the behavior being validated (e.g. "customer should receive an email when their contract expires").
 
 ## Other
 
+- Avoid using hard-coded values as much as possible, prefer putting them in a clear variable instead.
 - When using fake emails, always use the TLD "test", to make sure nothing ever gets sent to a real email address.
 - Prefer explicit, descriptive variable names over abbreviations 
 - Always strive for concise, simple solutions.
